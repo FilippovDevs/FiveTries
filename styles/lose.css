@@ -1,0 +1,28 @@
+*{
+	box-sizing:border-box;
+	font-family:Comic Sans MS;
+}
+body{
+	margin:0px;
+}
+.container{
+	background:rgb(200, 0, 0);
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.row{
+	background:rgb(225, 0, 0);
+	width:100vw;
+	height:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.row span{
+	color:#fff;
+	font-size:32px;
+	font-weight:bold;
+}
